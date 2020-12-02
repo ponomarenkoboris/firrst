@@ -2,7 +2,7 @@ import sentry_sdk
 
 from bottle import Bottle, request
 from sentry_sdk.integrations.bottle import BottleIntegration
-SENTRY_URL ='https://f9b1070564e247e58554d7a7406e0ecd@o485365.ingest.sentry.io/5540631'
+# SENTRY_URL ='https://f9b1070564e247e58554d7a7406e0ecd@o485365.ingest.sentry.io/5540631'
 sentry_sdk.init(
     dsn="https://f9b1070564e247e58554d7a7406e0ecd@o485365.ingest.sentry.io/5540631",
     integrations=[BottleIntegration()]
